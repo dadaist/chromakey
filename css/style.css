@@ -1,9 +1,13 @@
-#menu {
+/* #menu {
   position: fixed;
   left: 0;
   top: 25%;
   width: 8em;
   margin-top: -2.5em;
+} */
+
+#menu {
+    position: fixed;
 }
 
 a {
@@ -14,13 +18,24 @@ ul {
     list-style-type: none;
 }
 
-.record-display img {
+html {
+    background-color: peachpuff;
+}
+body {
+    background-color: peachpuff;
+}
+
+#standard-images img {
     height: 500px;
     width: 500px;
 }
 
+.title {
+    background-color: teal;
+}
+
 a:link, a:visited {
-    background-color: white;
+    /* background-color: white; */
     color: black;
     padding: 0px 0px;
     text-align: center;
@@ -35,27 +50,21 @@ a:link, a:visited {
     text-decoration-color: black;
 }
 
-div {
-    background-color: white;
-    padding-top: 125px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+.record-display img:hover {
+    box-shadow: 0px 0px 10px black;  
 }
 
 a {
     font: 20px arial, sans-serif;
 }
 p.a {
-    font: 60px arial, sans-serif; 
+    font: 60px arial, sans-serif;
 }
 
 #chroma {
 
   position: fixed;
-  /* right: ; */
-  top: 100%;
-  width: em;
-  margin-top: -13.5em;
-    /* transform: rotate(180deg); */
+  /* top: 100%; */
+  /* width: em;
+  margin-top: -10em; */
 }
