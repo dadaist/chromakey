@@ -1,8 +1,8 @@
 #menu {
   position: fixed;
   left: 0;
-  top:15.7%;
-  width: 8em;
+  top:15%;
+  width: 0em;
   margin-top: -2.5em;
 }
 a {
@@ -14,17 +14,21 @@ ul {
 }
 
 .record-display img {
-    height: 500px;
-    width: 500px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
 
 .artists img {
-    height: 500px;
-    width: 500px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
+
+
 /* trying to do individual (each image) hover that displays artist info
 would like this for release page as well*/
-/*.artists:hover*/
+/*.artists:hover */
 
 a:link, a:visited {
     background-color: white;
@@ -60,7 +64,7 @@ p.a {
 #chroma {
 
   position: fixed;
-  top: 116%;
+  top: 110%;
   width: 5em;
   margin-top: -17em;
   transform: rotate(270deg);
