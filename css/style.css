@@ -41,7 +41,6 @@ a:link, a:visited {
 
 
 .nav-bar a:hover, a:active {
-    /* background-color: blue; */
     text-decoration-line: underline;
     text-decoration-color: black;
 }
@@ -54,11 +53,29 @@ div {
     padding-left: 80px;
 }
 
+.record-display img:hover {
+    box-shadow: 0 0 100px black;
+}
+
 a {
     font: 20px arial, sans-serif;
 }
 p.a {
     font: 60px arial, sans-serif; 
+}
+
+ .dropdown-info {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.d {
+    display: block;
 }
 
 #chroma {
